@@ -2,7 +2,7 @@
  Use an if statement to print "Positive", "Negative", or "Zero"*/
 const Readline = require('readline');
 const readline = Readline.createInterface({
-    input: process.stdin,
+    input: process.stdin, 
     output: process.stdout
     });
 readline.question('Enter Number: ', (number) => {
