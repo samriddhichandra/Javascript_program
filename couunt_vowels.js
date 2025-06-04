@@ -38,3 +38,24 @@ let string2 = "Soon I will be UI IT Champ";
 
 oddPositionedChars(string1);
 oddPositionedChars(string2);
+
+// Reverse string and ignore spaces 
+function reverseString(str){
+    let rev ="";
+    for (let i = str.length - 1; i>= 0; i--){
+        let char = str.charAt(i);
+        if (char !== ' ') {
+            rev += char;
+        }
+
+    }
+console.log("Reversed string (no spaces):", rev);
+}
+
+// Input strings
+let str1 = "Hard work always pays back";
+let str2 = "Soon I will be Angular IT Champ";
+
+// Call the function
+reverseString(str1);
+reverseString(str2);
