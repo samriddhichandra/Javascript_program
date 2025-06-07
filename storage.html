@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Storage Assignment</title>
+</head>
+<body>
+    <h2>Assignment 2 - Web Local Storage</h2>
+    <script>
+        // Step 1: Add data to localStorage
+        localStorage.setItem("name", "Your Full Name");
+        localStorage.setItem("city", "Your City Name");
+        localStorage.setItem("pinCode", "Your Pin Code");
+        localStorage.setItem("district", "Your District Name");
+
+        // Step 2: Remove the item with key 'city'
+        localStorage.removeItem("city");
+
+        // Optional: Log to verify
+        console.log("Name:", localStorage.getItem("name"));
+        console.log("City:", localStorage.getItem("city")); // should be null
+        console.log("Pin Code:", localStorage.getItem("pinCode"));
+        console.log("District:", localStorage.getItem("district"));
+    </script>
+</body>
+</html>
