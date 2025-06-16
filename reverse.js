@@ -14,4 +14,3 @@ rl.question("Enter a string: ", function(input) {
     console.log("Reversed string:", reversed);
     rl.close(); // Important to close the interface!
 });
- 

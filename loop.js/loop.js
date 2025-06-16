@@ -1,6 +1,6 @@
 // 1. WAP to print numbers from 5 to 15 by incrementing 1
 console.log("Numbers from 5 to 15:");
-for(let i = 5; i<=16;i++){
+for(let i = 5; i<=16;i ++){
     console.log(i);
 }
 
